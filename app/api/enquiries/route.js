@@ -1,0 +1,1 @@
+export async function POST(request){const data=await request.json();if(!data.name||!data.mobile||!data.email)return Response.json({error:'Missing required fields'},{status:400});console.log('New enquiry:',{...data,receivedAt:new Date().toISOString()});return Response.json({ok:true});}

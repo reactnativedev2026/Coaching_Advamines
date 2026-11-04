@@ -1,0 +1,3 @@
+import { notFound } from 'next/navigation'; import Link from 'next/link'; import { programs } from '@/lib/content';
+export function generateStaticParams(){return programs.map(({slug})=>({slug}))}
+export default async function Course({params}){const {slug}=await params; const p=programs.find(x=>x.slug===slug);if(!p)return notFound();return <main className="page detail"><p className="eyebrow">{p.level} programme</p><h1>{p.name} coaching</h1><p className="lead">{p.description}</p><h2>What students receive</h2><ul><li>Concept-led classroom teaching</li><li>Regular tests and performance reviews</li><li>Personal mentoring and doubt support</li><li>Study material and revision planning</li></ul><Link className="button" href="/contact">Book a free demo</Link></main>}

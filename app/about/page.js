@@ -1,0 +1,2 @@
+export const metadata={title:'About | NoMoreClass'};
+export default function About(){return <main className="page detail"><p className="eyebrow">About NoMoreClass</p><h1>Focused learning, without the factory feel.</h1><p className="lead">We bring boards and competitive-exam preparation into one clear programme, taught and guided by experienced mentors.</p><h2>Our approach</h2><p>Small batches, measurable progress and direct student support keep preparation practical and personal.</p></main>}

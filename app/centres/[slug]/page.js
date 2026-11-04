@@ -1,0 +1,3 @@
+import { notFound } from 'next/navigation'; import Link from 'next/link'; import { centres } from '@/lib/content';
+export function generateStaticParams(){return centres.map(({slug})=>({slug}))}
+export default async function Centre({params}){const {slug}=await params;const c=centres.find(x=>x.slug===slug);if(!c)return notFound();return <main className="page detail"><p className="eyebrow">Our centre</p><h1>{c.name}</h1><p className="lead">{c.address}</p><p>Visit the centre for a counsellor conversation and a free demo class.</p><Link href="/contact" className="button">Book a visit</Link></main>}

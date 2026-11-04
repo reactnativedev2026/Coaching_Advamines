@@ -1,0 +1,294 @@
+/*
+ Theme Name:   Eduma Child
+ Theme URI:    http://educationwp.thimpress.com/
+ Description:  Eduma Child Theme
+ Author:       ThimPress
+ Author URI:   http://thimpress.com
+ Template:     eduma
+ Version:      1.0.0
+ Text Domain:  eduma-child
+*/
+
+.test-class{ color: red; }
+footer#colophon {
+    background: #000 !important;
+}
+
+.menu-right .thim-link-login .profile {
+  color:#3b3737;
+    background-color: transparent;
+    text-transform: uppercase !important;
+}
+
+.menu-right .thim-link-login .profile:hover {
+  color:#3b3737;
+
+}
+
+.menu-right .thim-link-login a:last-child {
+    padding-right: 0;
+    text-transform: uppercase !important;
+}
+
+.fg-layout-3-filters-wrap {
+    max-width: 100% !important;
+    margin: 15px auto 50px;
+}
+
+.fg-filter-wrap {
+    position: relative;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 40% !important;
+}
+
+.fg-layout-3-search-box {
+    -ms-flex-preferred-size: 70%;
+    flex-basis: 60% !important;
+    height: 100%;
+}
+
+.buttone10 {
+	text-align:center;
+	width:100%;
+}
+
+
+
+
+
+.buttone10 a {
+     color: #FFFFFF;
+    background: linear-gradient(180deg, #2AA8E2 0%, #00337E 100%);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+		text-align:center;
+}
+
+
+.wpcf7-form input[type=text],
+.wpcf7-form input[type=email],
+.wpcf7-form input[type=tel],
+.wpcf7-form input[type=number],
+.wpcf7-form input[type=date],
+.wpcf7-form select,
+.wpcf7-form textarea,
+form.yikes-easy-mc-form input[type=text],
+form.yikes-easy-mc-form input[type=email],
+form.yikes-easy-mc-form input[type=tel],
+form.yikes-easy-mc-form input[type=number],
+form.yikes-easy-mc-form input[type=date],
+form.yikes-easy-mc-form select,
+form.yikes-easy-mc-form textarea
+
+ {
+border: 1px solid #b1b1b1 !important;
+padding: 8px 7px !important;
+border-radius: 7px !important;
+color: #000 !important;
+font-size: 16px !important;
+font-family: 'Roboto' !important;
+}
+
+input#submit {
+    float: right;
+    width: 100%;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 4em .5em 1em;
+    padding: .2em 1em;
+    border: 2px solid #00a0d2;
+    font-size: 20px;
+}
+
+
+.flaticon-statistics:before {
+    content: "\f120";
+    color: #fff !important;
+}
+
+
+.widget_nav_menu li.menu-item a {
+    display: block;
+    margin: 10px 0px;
+}
+
+.navigation .navbar-nav li .sub-menu li a, .navigation .navbar-nav li .sub-menu li>span.disable_link, .navigation .navbar-nav li .sub-menu li>.tc-menu-inner {
+    -webkit-transition: all 0.3s;
+    -khtml-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    padding: 3px 0 !important;
+    display: block;
+}
+.instructor-info a {
+    text-transform: capitalize;
+}
+
+
+/* Balram CSS */
+
+.test-class{ color: red; }
+
+footer .footer {
+    padding-top: 0px !important;
+    padding-bottom: 0;
+}
+
+footer .footer .row aside {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+a.profile {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a.logout {
+text-transform: uppercase;
+    font-weight: bold;
+}
+
+a.login.js-show-popup {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.YourName {
+    background-color: #fff !important;
+    padding: 7px !important;
+    border: 2px solid #D9D9D9 !important;
+		color:#000 !important;
+		font-size:16px !important;
+}
+
+.thim-ekits-event__meta>div {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.elementor-12 .elementor-element.elementor-element-7ac0409b .thim-ekits-event__item .label-event-status {
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+.thim-carousel-course-categories .item .title {
+    top: 89% !important;
+   
+}
+
+.thim-carousel-course-categories .item .image a:before {
+    background: rgba(0,0,0,0) !important;
+ 
+}
+
+.tp-event-content .tp-event-info {
+    max-width: 240px;
+    width: 240px;
+    padding-left: 30px;
+    float: right;
+    display: none;
+}
+
+  .overflowivew {
+    background-color:#fff;
+    width:100%;
+    height:600px;
+    border: 1px solid #fff;
+    overflow: auto;
+  }
+
+#toolbar {
+    display: none !important;
+}
+
+div.heateor_sss_follow_ul a, div.heateor_sss_horizontal_sharing div.heateor_sss_sharing_ul a {
+    float: left;
+    padding: 0 !important;
+    list-style: none !important;
+    border: none !important;
+    margin: 10px;
+}
+
+.elementor-accordion .elementor-accordion-item {
+    border: 1px solid #d5d8dc;
+    margin: 15px 0px;
+}
+
+
+
+div#sidebar  {
+    background: #f2f2f2 !important;
+	padding: 20px 0px !important;
+}
+
+.theiaStickySidebar {
+    background: #f2f2f2 !important;
+    padding: 20px !important;
+}
+
+
+.site-header .navbar-nav>li.callno {
+    background-color: #12649F !important;
+	border-radius:7px !important;
+	padding: 6px 6px !important;
+	font-size:14px !important;
+    float: none;
+    display: inline-block;
+    zoom: 1;
+    max-height: 60px;
+}
+
+.site-header .navbar-nav>li.callno a  {
+color:#fff !important;
+Font-weight:normal !important;
+font-size:18px !important;
+padding: 3px 6px !important;
+}
+ 
+@media only screen and (max-width: 600px) {
+	.site-header .navbar-nav>li.callno a {
+    color: #fff;
+    Font-weight: normal !important;
+    font-size: 14px !important;
+    padding: 4px 9px !important;
+}
+} 
+
+table.mytable {
+    background-color:#003685;
+    color:#fff;
+}
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .blinking-text {
+            text-align: center;
+            margin-top: 20%;
+            font-size: 24px;
+            color: green;
+            animation: blink 1s infinite;
+        }
+
+

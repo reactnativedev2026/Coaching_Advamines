@@ -1,0 +1,3 @@
+import { notFound } from 'next/navigation'; import { posts } from '@/lib/content';
+export function generateStaticParams(){return posts.map(({slug})=>({slug}))};
+export default async function Post({params}){const {slug}=await params;const post=posts.find(x=>x.slug===slug);if(!post)return notFound();return <main className="page detail"><p className="eyebrow">{post.date}</p><h1>{post.title}</h1><p className="lead">A clear, student-friendly guide from the NoMoreClass academic team.</p><h2>Start with a sustainable routine</h2><p>Set weekly goals, make time for revision and use regular tests to identify the concepts that need attention. Consistency is more valuable than last-minute study marathons.</p></main>}
